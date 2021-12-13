@@ -1,1 +1,14 @@
+int xLocation = 175;
+int yLocation = 175;
 size(600,600);
+fill(255,0, 0, 150);
+ellipse (xLocation, yLocation, 350, 350);
+fill(0,255,0, 150);
+ellipse(xLocation+250, yLocation, 350, 350);
+fill(0, 0, 250, 150);
+ellipse (xLocation+125, yLocation+250, 350, 350);
+stroke(0,0,0,255);
+fill(0,0,0);
+text("TEXT", xLocation, yLocation);
+text("TEXT", xLocation+250, yLocation);
+text("TEXT", xLocation+125, yLocation+250);
